@@ -1,0 +1,58 @@
+.Dashboard {
+  position: relative;
+  top: 44px;
+  font-size: 14px;
+  .welcomeMsg {
+    font-size: 14px;
+    color: green;
+    padding-right: 10px;
+  }
+  .container {
+    .row {
+      .imgBlock {
+        img {
+            width: 150px;
+        }
+        label {
+          display: block;
+          font-weight: 600;
+        }
+      }
+      .imgBlk,
+      .resultBlk {
+        .title {
+          color: #cb3256;
+          font-weight: bold;
+        }
+      }
+      .action {
+        button {
+          font-weight: bold;
+        }
+        .startOcr {
+          margin-right: 10px;
+        }
+      }
+      .imgBlk {
+        .uploadImg {
+          padding: 20px;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          img {
+            width: 300px;
+          }
+        }
+      }
+      .resultBlk {
+        .showResult {
+          padding: 20px;
+          border: 1px solid lightgray;
+          border-radius: 5px;
+          label {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

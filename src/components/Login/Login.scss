@@ -1,0 +1,17 @@
+.Login {
+  .imgDiv {
+    img {
+      width: 100%;
+    }
+  }
+  .formDiv {
+    form {
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      font-size: 14px;
+      input {
+        font-size: 12px;
+      }
+    }
+  }
+}
